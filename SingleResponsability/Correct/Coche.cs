@@ -8,8 +8,8 @@ namespace PrincipiosSolid.SingleResponsability.Correct
 {
     public class Coche
     {
-        String marca;
-        Coche(string marca) { this.marca = marca; }
+        public String marca;
+        public Coche(string marca) { this.marca = marca; }
         String getMarcaCoche() { return marca; }
     }
 }
