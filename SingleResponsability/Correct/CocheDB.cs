@@ -8,7 +8,7 @@ namespace PrincipiosSolid.SingleResponsability.Correct
 {
     public class CocheDB
     {
-        void guardarCocheDB(Coche coche)
+        public void guardarCocheDB(Coche coche)
         {
         }
 

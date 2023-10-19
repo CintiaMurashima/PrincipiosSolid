@@ -43,11 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Liskov\Correct\AudiCorrect.cs" />
+    <Compile Include="Liskov\Correct\CocheLiskovCorrect.cs" />
+    <Compile Include="Liskov\Correct\LiskovCorrectImplementation.cs" />
+    <Compile Include="Liskov\Correct\Mercedes.cs" />
+    <Compile Include="Liskov\Correct\Renault.cs" />
+    <Compile Include="Liskov\Incorrect\AudiLiskovIncorrect.cs" />
+    <Compile Include="Liskov\Incorrect\CocheLiskovIncorrect.cs" />
+    <Compile Include="Liskov\Incorrect\LiskovIncorrectImplementation.cs" />
+    <Compile Include="Liskov\Incorrect\MercedesLiskovIncorrect.cs" />
+    <Compile Include="Liskov\Incorrect\RenaultLiskovIncorrect.cs" />
     <Compile Include="OpenClose\Correct\Audi.cs" />
-    <Compile Include="OpenClose\Correct\CocheOPCorrect.cs" />
+    <Compile Include="OpenClose\Correct\CocheOpenCloseCorrect.cs" />
     <Compile Include="OpenClose\Correct\Mercedes.cs" />
     <Compile Include="OpenClose\Correct\Renault.cs" />
-    <Compile Include="OpenClose\Incorrect\CocheOP.cs" />
+    <Compile Include="OpenClose\Incorrect\CocheOpenCloseIncorrect.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SingleResponsability\Correct\Coche.cs" />

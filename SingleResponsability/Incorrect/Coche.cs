@@ -10,11 +10,13 @@ namespace PrincipiosSolid.SingleResponsability.Incorrect
 {
     public class Coche
     {
-        String marca; 
-        Coche(string marca) { this.marca = marca; }
+        public string marca; 
+        public Coche(string marca) { this.marca = marca; }
 
-        String getMarcaCoche() { return marca; }
-        
+        public string getMarcaCoche() { return marca; }
+        public void guardarCocheDB(Coche coche)
+        {
+        }
     }
 }
 
